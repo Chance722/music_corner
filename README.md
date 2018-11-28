@@ -23,7 +23,8 @@ npm install
 3. 使用微信开发者工具运行mpvue项目，详见[mpvue官网5分钟上手教程](http://mpvue.com/mpvue/quickstart/)
 4. 启动审核后台，npm run dev
 
-#############项目截图
+#############部分项目截图
+
 ![image](https://user-images.githubusercontent.com/27771964/49151143-1168a400-f34a-11e8-8f3e-d06144017aab.png)
 
 ![image](https://user-images.githubusercontent.com/27771964/49151194-35c48080-f34a-11e8-9119-288a39229a12.png)
