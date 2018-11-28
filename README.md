@@ -11,10 +11,12 @@
  （注：七牛已经对测试域名进行回收机制，解决办法详见[七牛测试域名过期解决办法](https://github.com/qiniu/qshell/issues/188)）**
  
  ###########环境依赖
+ 
  node v8.0+
  mysql
  
  ###########部署步骤
+ 
 1. 安装各个项目的项目依赖
 npm install
 2. 启动服务端，详见music_corner_server内README.md
@@ -23,8 +25,13 @@ npm install
 
 #############项目截图
 ![image](https://user-images.githubusercontent.com/27771964/49151143-1168a400-f34a-11e8-8f3e-d06144017aab.png)
+
 ![image](https://user-images.githubusercontent.com/27771964/49151194-35c48080-f34a-11e8-9119-288a39229a12.png)
+
 ![image](https://user-images.githubusercontent.com/27771964/49151207-41b04280-f34a-11e8-9cf8-fbbf1a5a8ebe.png)
+
 ![image](https://user-images.githubusercontent.com/27771964/49151245-5f7da780-f34a-11e8-9ac4-473e285d44dd.png)
+
 ![image](https://user-images.githubusercontent.com/27771964/49151269-6e645a00-f34a-11e8-9f6f-c73b25901dd2.png)
+
 ![image](https://user-images.githubusercontent.com/27771964/49151303-8340ed80-f34a-11e8-8c06-5b670f4c5826.png)
