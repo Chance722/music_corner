@@ -1,0 +1,23 @@
+// 伪元素通用
+@mixin afterBlock($width, $height) {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: $width;
+    height: $height;
+}
+
+// 消除链接点击闪烁
+@mixin fixLinkBlink {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+// 全比例背景图设置
+@mixin autoBackground($url) {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url($url);
+}

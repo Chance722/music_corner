@@ -1,0 +1,22 @@
+$designWidth: 750;
+
+@function rem($n) {
+    @return #{$n / ($designWidth / 10)}rem;
+}
+
+// 伪元素通用
+@mixin afterBlock($width, $height) {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: rem($width);
+    height: rem($height);
+}
+
+// 消除链接点击闪烁
+@mixin fixLinkBlink {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
